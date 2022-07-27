@@ -31,7 +31,13 @@ header h1{
   background-color: #fff;
   transition: ease .4s;
   float:right;
+}
+
+.header__nav a {
   text-decoration: none;
+}
+
+.header__nav ul,li {
   list-style: none;
 }
 
