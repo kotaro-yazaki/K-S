@@ -31,6 +31,7 @@ header h1{
   transform: translateX(100%);
   background-color: #fff;
   transition: ease .4s;
+  float:right;
 }
 
 
@@ -101,6 +102,7 @@ header h1{
 .header__hamburger {
   width: 48px;
   height: 100%;
+  float:right;
 
 }
 
