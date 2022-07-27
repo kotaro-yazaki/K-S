@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  font-family: serif;
+}
+
+header{
+  background-color: white;
+  margin-bottom: -20px;
+  /* headerとcenterの間の空白をなくす */
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+header h1{
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 70px;
+}
+.center ul{
+  padding-bottom: 20px;
+}
+
+.center{
+  background-color: #d2b48c;
+}
+
+.center img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.slides{
+  margin-left: -40px;
+}
+
+.index-btn-wrapper {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.index-btn {
+  display: inline-block;
+  color:rgb(241, 237, 237);
+  background-color: rgb(231, 225, 225);
+  width: 17px;
+  height: 5px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slide{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+
+.top{
+  font-size: 23px;
+  text-align: center;
+  padding-top:30px;
+  font-family: Verdana;
+}
+.center p{
+  font-size: 16px;
+  padding: 20px 20px;
+}
+.attention{
+  font-size: 18px;
+}
+
+footer p{
+  text-align: center;
+}
