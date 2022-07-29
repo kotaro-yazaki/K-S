@@ -149,7 +149,7 @@ header h1{
 
 
 /* ハンバーガーメニュークリック後のスタイル */
-.active .nav {
+.header__nav.active {
   transform: translateX(0);
 }
 
