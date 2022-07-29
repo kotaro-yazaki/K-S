@@ -29,9 +29,31 @@ window.onload = function () {
 };
 
 /* スライドショー */
-for(let i=1;i<4;i++){
-  window.setTimeout(function(){
-    $(".i").removeClass("active");
-    $(".i+1").addClass("active");
-  },5000);
+for(let i=1;i<10000;i++){
+  function 1to2(){
+    $(".1").removeClass("active");
+    $(".2").addClass("active");
+  }
+  setTimeout(1to2, 3000);
+  
+  function 2to3(){
+    $(".2").removeClass("active");
+    $(".3").addClass("active");
+  }
+  setTimeout(2to3, 3000);
+  
+  function 3to4(){
+    $(".3").removeClass("active");
+    $(".4").addClass("active");
+  }
+  setTimeout(3to4, 3000);
+  
+  function 4to1(){
+    $(".4").removeClass("active");
+    $(".1").addClass("active");
+  }
+  setTimeout(4to1, 3000);
+
 }
+
+
