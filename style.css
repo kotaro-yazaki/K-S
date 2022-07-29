@@ -30,7 +30,7 @@ header h1{
   height: 100vh;
   background-color: #fff;
   transition: ease .4s;
-  transform: translateX(100%); 
+  transform: translateX(50%); 
 }
 
 .header__nav a {
@@ -150,7 +150,7 @@ header h1{
 
 /* ハンバーガーメニュークリック後のスタイル */
 .header__nav.active {
-  transform: translateX();
+  transform: translateX(0%);
 }
 
 .hamburger.active span:nth-child(1) {
