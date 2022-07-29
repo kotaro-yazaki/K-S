@@ -150,7 +150,7 @@ header h1{
 
 /* ハンバーガーメニュークリック後のスタイル */
 .header__nav.active {
-  transform: translateX(0);
+  transform: translateX();
 }
 
 .hamburger.active span:nth-child(1) {
