@@ -34,3 +34,4 @@ for(let i=1;i<4;i++){
     $("#i").removeClass("active");
     $("#i+1").addClass("active");
   },5000);
+}
