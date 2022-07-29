@@ -24,4 +24,4 @@ ham.addEventListener('click', function () {
   ham.classList.toggle('active');
   nav.classList.toggle('active');
 
-});
+},false);
