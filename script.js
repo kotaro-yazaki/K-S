@@ -31,7 +31,7 @@ window.onload = function () {
 /* スライドショー */
 for(let i=1;i<4;i++){
   window.setTimeout(function(){
-    $("#i").removeClass("active");
-    $("#i+1").addClass("active");
+    $(".i").removeClass("active");
+    $(".i+1").addClass("active");
   },5000);
 }
