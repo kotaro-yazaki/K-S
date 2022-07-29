@@ -115,6 +115,26 @@ black-bg(ハンバーガーメニュー解除用bg)
 }
 
 /* スライドショー */
+#slideshow {
+   position: relative;
+   width:  640px; /* 画像の横幅に合わせて記述 */
+   height: 270px; /* 画像の高さに合わせて記述 */
+}
+#slideshow img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#slideshow img.active2 {
+   z-index: 10;
+   opacity: 1.0;
+}
+#slideshow img.last-active2 {
+   z-index: 9;
+}
+
 
 /* 本文 */
 .title{
