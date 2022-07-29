@@ -11,10 +11,15 @@ $(function(){
       "scrollTop":0
     },500);
   });
-
+  
+  $("#js-hamburger").click(function(){
+    $(".header__nav").toggleClass("active");
+    $(".hamburger.active").toggleClass("active");
+  });
 
 }); 
 
+/*
 const ham = document.querySelector('#js-hamburger');
 const nav = document.querySelector('#js-nav');
 
@@ -25,3 +30,4 @@ ham.addEventListener('click', function () {
   nav.classList.toggle('active');
 
 });
+*/
