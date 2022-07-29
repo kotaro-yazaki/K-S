@@ -106,7 +106,7 @@ header h1{
 }
 
 
-/* ハンバーガーメニュー */
+ ハンバーガーメニュー 
 .header__hamburger {
   width: 48px;
   height: 100%;
@@ -149,7 +149,7 @@ header h1{
 }
 
 
-/* ハンバーガーメニュークリック後のスタイル */
+ ハンバーガーメニュークリック後のスタイル 
 .header__nav.active {
   transform: translateX(0);
 }
@@ -168,7 +168,7 @@ header h1{
   top: -13px;
   transform: rotate(-45deg);
 } 
-*/
+ここまで　*/
 
 .hamburger {
   position: absolute;
