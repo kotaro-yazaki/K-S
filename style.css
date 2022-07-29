@@ -30,7 +30,7 @@ header h1{
   height: 100vh;
   background-color: #fff;
   transition: ease .4s;
-  float:right;
+  transform: translateX(100%); 
 }
 
 .header__nav a {
