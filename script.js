@@ -29,23 +29,3 @@ window.onload = function () {
 };
 
 /* スライドショー */
-function slideSwitch() {
-   var $active = $('#slideshow img.active2');
-
-   if ( $active.length == 0 ) $active = $('#slideshow img:last');
-
-   var $next =  $active.next().length ? $active.next()
-      : $('#slideshow img:first');
-
-   $active.addClass('last-active2');
-
-   $next.css({opacity: 0.0})
-      .addClass('active2')
-      .animate({opacity: 1.0}, 1000, function() {
-           $active.removeClass('active2 last-active2');
-      });
-}
-
-$(function() {
-   setInterval( "slideSwitch()", 3000 );
-});
