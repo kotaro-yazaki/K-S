@@ -130,6 +130,12 @@ black-bg(ハンバーガーメニュー解除用bg)
   padding-top: 70px;
   font-family: Impact;
 }
+
+.SubTitle{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+
 .center ul{
   padding-bottom: 20px;
 }
