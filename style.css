@@ -135,6 +135,7 @@ black-bg(ハンバーガーメニュー解除用bg)
   text-align: center;
   font-size: 20px;
   font-family: serif;
+  padding-top: 10px;
 }
 
 .center ul{
